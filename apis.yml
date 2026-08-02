@@ -1,8 +1,26 @@
 aid: trust-token
 name: Trust Token
-description: Trust Token is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: TrustToken, founded in San Francisco in 2017 and rebranded as Archblock
+  in November 2022, builds infrastructure for moving institutional funds and real-world
+  assets onto blockchain rails. The company created the TrueUSD (TUSD) stablecoin and
+  the TrueCurrencies family, and launched TrueFi, an on-chain under-collateralized
+  lending protocol governed by the TRU token. Today Archblock operates a marketplace
+  and fund-tokenization platform for institutional capital at app.archblock.com, with
+  smart contracts, audits, and bug bounty programs published through its trusttoken
+  GitHub organization. Backed by a16z, Founders Fund, BlockTower, and Morgan Creek.
 url: https://raw.githubusercontent.com/api-evangelist/trust-token/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.archblock.com/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +29,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Stablecoins
+- DeFi
+- Blockchain
+- Tokenization
+- Lending
+- Cryptocurrency
+- FinTech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/trust-token-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/trust-token-vulnerability-disclosure.yml
+- type: Security
+  url: https://github.com/trusttoken/stablecoins-bug-bounty
+- type: Packages
+  url: packages/trust-token-packages.yml
+- type: SDKs
+  url: packages/trust-token-packages.yml
+- type: LLMsTxt
+  url: llms/trust-token-llms.txt
+- type: Website
+  url: https://www.archblock.com
+- type: Login
+  url: https://app.archblock.com
+- type: Support
+  url: https://www.archblock.com/contact
+- type: TermsOfService
+  url: https://www.archblock.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.archblock.com/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/trusttoken
+- type: LinkedIn
+  url: https://www.linkedin.com/company/archblock/
+- type: X (Twitter)
+  url: https://twitter.com/archblock_
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

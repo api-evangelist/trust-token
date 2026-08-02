@@ -1,0 +1,33 @@
+# Trust Token (Archblock)
+
+> TrustToken, rebranded as Archblock in November 2022, builds infrastructure for moving institutional funds and real-world assets onto blockchain rails. It created the TrueUSD (TUSD) stablecoin and TrueCurrencies, launched the TrueFi on-chain lending protocol (TRU token), and now operates a fund-tokenization marketplace for institutions at app.archblock.com. Backed by a16z, Founders Fund, BlockTower, and Morgan Creek. No public REST API or developer portal is currently published; the developer surface is the trusttoken GitHub organization (smart contracts, audits, bug bounties) and npm packages under the @trusttoken scope.
+
+## Company
+
+- [Archblock website](https://www.archblock.com): Corporate site (formerly trusttoken.com, which no longer resolves)
+- [Archblock app](https://app.archblock.com): Institutional marketplace / client portal
+- [About](https://www.archblock.com/about): Company background
+- [Contact](https://www.archblock.com/contact): Support and sales contact
+- [Legal](https://www.archblock.com/legal): Terms of service, stablecoin terms of use, privacy policy
+
+## Developer surface
+
+- [GitHub organization (trusttoken)](https://github.com/trusttoken): Smart contracts, TrueCurrencies (pre-2022), TrueFi spec, audits
+- [Smart contract audits](https://github.com/trusttoken/audits): TrustToken smart contract audit reports
+- [npm @trusttoken/web-sdk](https://www.npmjs.com/package/@trusttoken/web-sdk): TrustToken Web SDK
+- [npm @trusttoken/trusttokens](https://www.npmjs.com/package/@trusttoken/trusttokens): Token contracts
+- [npm @trusttoken/registry](https://www.npmjs.com/package/@trusttoken/registry): On-chain KYC/AML registry contracts
+
+## Security
+
+- [Archblock Stablecoins Bug Bounty](https://github.com/trusttoken/stablecoins-bug-bounty): Active program, security@archblock.com
+- [TrueFi Bug Bounty](https://github.com/trusttoken/bug-bounty): Terms for TrueFi contracts (Immunefi listing paused)
+
+## Ecosystem
+
+- [TrueFi](https://truefi.io/): On-chain credit protocol launched by TrustToken (docs now redirect to docs.brila.finance)
+- [TrueUSD](https://tusd.io/): TUSD stablecoin originally launched by TrustToken (now operated by Techteryx)
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/trust-token/refs/heads/main/apis.yml): API Evangelist network profile for Trust Token / Archblock

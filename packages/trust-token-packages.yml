@@ -1,0 +1,37 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=trusttoken
+notes: First-party npm packages published under the @trusttoken scope (TrustToken,
+  now Archblock). These are Ethereum smart-contract and web-integration libraries
+  rather than REST API clients; publishing activity largely predates the 2022
+  Archblock rebrand. No first-party packages found on PyPI, Maven Central, NuGet,
+  pkg.go.dev, RubyGems, Packagist, or crates.io.
+packages:
+- language: javascript
+  registry: npm
+  name: '@trusttoken/web-sdk'
+  url: https://www.npmjs.com/package/@trusttoken/web-sdk
+  install: npm install @trusttoken/web-sdk
+  official: true
+  description: TrustToken Web SDK
+  latest: 0.0.1
+  last_published: '2019-11-20'
+  repository: https://github.com/trusttoken/trusttoken-web-sdk
+- language: javascript
+  registry: npm
+  name: '@trusttoken/trusttokens'
+  url: https://www.npmjs.com/package/@trusttoken/trusttokens
+  install: npm install @trusttoken/trusttokens
+  official: true
+  description: TrustToken token contracts (TrueCurrencies smart contracts)
+  last_published: '2020-06-02'
+- language: javascript
+  registry: npm
+  name: '@trusttoken/registry'
+  url: https://www.npmjs.com/package/@trusttoken/registry
+  install: npm install @trusttoken/registry
+  official: true
+  description: On-chain registry contracts for Ethereum addresses that have passed
+    KYC/AML checks
+  last_published: '2020-03-26'
+  repository: https://github.com/trusttoken/registry
